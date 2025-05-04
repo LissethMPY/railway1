@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
             
             const apiUrl = window.location.hostname === 'localhost' 
                 ? 'http://localhost:3000/hello/mensaje' 
-                : 'https://apirestnodejs-production-87da.up.railway.app/hello/mensaje';
+                : 'https://squealing-pet-production.up.railway.app/hello/mensaje';
             
             const response = await fetch(apiUrl);
             
